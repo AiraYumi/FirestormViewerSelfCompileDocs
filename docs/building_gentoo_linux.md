@@ -1,7 +1,5 @@
 # Build instructions for Gentoo Linux
 
-Updated 2024-03-29
-
 ---
 
 > [!WARNING]
@@ -49,10 +47,10 @@ Autobuild is a Linden Lab resource that does all the hard work.
 
 ```
 sudo pip3 install --break-system-packages --upgrade pip
-sudo pip3 install --break-system-packages git+https://github.com/secondlife/autobuild.git#egg=autobuild
+sudo pip3 install --break-system-packages -r requirements.txt
 ```
 
-Check Autobuild version to be "autobuild 4" or higher: `autobuild --version`
+Check Autobuild version to be "autobuild 3.9.3" or higher: `autobuild --version`
 
 ## Download the source code
 
