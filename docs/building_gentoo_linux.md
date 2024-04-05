@@ -38,7 +38,7 @@ A few packages must be installed on the build system. Some may already be instal
 | x11-libs/libXinerama | media-libs/fontconfig | media-sound/pulseaudio |
 
 ```
-sudo sudo emerge --autounmask-write=y --autounmask-continue=y dev-build/cmake dev-python/pip dev-vcs/git media-libs/mesa media-libs/glu x11-libs/libXinerama media-libs/fontconfig media-sound/pulseaudio
+sudo emerge --autounmask-write=y --autounmask-continue=y dev-build/cmake dev-python/pip dev-vcs/git media-libs/mesa media-libs/glu x11-libs/libXinerama media-libs/fontconfig media-sound/pulseaudio
 ```
 
 ### Install Autobuild
